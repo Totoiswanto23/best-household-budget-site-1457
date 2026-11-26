@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaBudget — Anggaran Rumah Tangga Indonesia</title>
+<meta name="description" content="NusaBudget: kalkulator anggaran, rincian belanja menurut data BPS, perencana tabungan, dan panduan mengatur uang rumah tangga Indonesia. Gratis, offline, tanpa daftar.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div>
+      <a class="brand" href="#/">Nusa<span>Budget</span></a>
+      <p class="tagline">Anggaran rumah tangga Indonesia — data BPS, alat gratis, tanpa daftar.</p>
+    </div>
+    <nav class="main" aria-label="Navigasi utama">
+      <a href="#/" data-nav="home">Beranda</a>
+      <a href="#/kalkulator" data-nav="kalkulator">Kalkulator</a>
+      <a href="#/belanja" data-nav="belanja">Rincian Belanja</a>
+      <a href="#/tabungan" data-nav="tabungan">Tabungan</a>
+      <a href="#/panduan" data-nav="panduan">Panduan</a>
+      <a href="#/sumber" data-nav="sumber">Sumber</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="app" aria-live="polite">
+  <noscript><p> NusaBudget butuh JavaScript untuk kalkulator dan grafik. Aktifkan JavaScript di browser Anda.</p></noscript>
+</main>
+<footer class="wrap site">
+  <p><strong>NusaBudget</strong> — situs anggaran rumah tangga buatan sendiri untuk bounty make.fun
+  “Make the best household budget site”. Data nasional dari BPS (Susenas); angka contoh diberi label
+  “Contoh”. Situs ini berjalan sepenuhnya offline dari file-nya sendiri.</p>
+  <p><a href="#/sumber">Lihat semua sumber data</a> · <a href="#/panduan">Panduan 50/30/20</a></p>
+</footer>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
